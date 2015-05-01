@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/product_title_five_credits"
+        style="@style/product_title"
+        android:text="@string/five_credits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/five_credits_product_description"
+        android:layout_below="@id/product_title_five_credits"
+        android:text="@string/five_credits_description"
+        android:singleLine="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/buy_five_button"
+        android:layout_toRightOf="@id/five_credits_product_description"
+        android:layout_toEndOf="@id/five_credits_product_description"
+        android:layout_alignBaseline="@id/five_credits_product_description"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:text="@string/buy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/product_title_ten_credits"
+        android:text="@string/ten_credits"
+        android:layout_marginTop="20dp"
+        style="@style/product_title"
+        android:layout_below="@id/five_credits_product_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/ten_credits_product_description"
+        android:layout_below="@id/product_title_ten_credits"
+        android:text="@string/ten_credits_description"
+        android:singleLine="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/buy_ten_button"
+        android:layout_toRightOf="@id/ten_credits_product_description"
+        android:layout_toEndOf="@id/ten_credits_product_description"
+        android:layout_alignBaseline="@id/ten_credits_product_description"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:text="@string/buy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

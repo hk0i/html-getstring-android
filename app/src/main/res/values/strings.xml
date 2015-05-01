@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">RichTextStringFormat</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="five_credits">Five Credits</string>
+    <string name="ten_credits">Ten Credits</string>
+    <string name="five_credits_description">Gives you <b>FIVE</b> extra coins
+        to spend\nAvailable <b>NOW</b> for only <b>$0.99</b></string>
+    <string name="ten_credits_description">Gives you <b>TEN</b> extra coins
+        to spend\nAvailable <b>NOW</b> for only <b>$4.99</b></string>
+    <string name="buy">Buy</string>
+</resources>
+
