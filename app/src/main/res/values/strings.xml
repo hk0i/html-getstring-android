@@ -10,5 +10,10 @@
     <string name="ten_credits_description">Gives you <b>TEN</b> extra coins
         to spend\nAvailable <b>NOW</b> for only <b>$4.99</b></string>
     <string name="buy">Buy</string>
+    <string name="product_description_formatted"><![CDATA[Gives you <b>%1$s</b>
+        extra coins to spend<br/>Available <b>NOW</b> for only
+        <b>%2$s</b>]]></string>
+    <string name="five">five</string>
+    <string name="ten">ten</string>
 </resources>
 
